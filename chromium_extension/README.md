@@ -12,4 +12,5 @@ It periodically fetches recent trades and highlights any activity involving your
 - Use the popup to add usernames or coin symbols you want to track.
 - The extension lists recent trades that involve those users or coins.
 
+
 The background service polls the Rugplay API every minute to refresh trade data.
