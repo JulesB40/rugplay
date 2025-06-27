@@ -1,0 +1,76 @@
+/* Basic styles for highlighted elements */
+.rugplay-tracker-highlight-user {
+  background-color: yellow !important;
+  border: 2px solid orange !important;
+  padding: 2px;
+}
+
+.rugplay-tracker-highlight-coin {
+  background-color: lightblue !important;
+  border: 2px solid blue !important;
+  padding: 2px;
+}
+
+/* Styles for the tracking management page can be added here or in a separate file linked by tracking.html */
+body.rugplay-tracker-page {
+  font-family: sans-serif;
+  padding: 15px;
+  min-width: 300px;
+}
+
+.rugplay-tracker-page h1, .rugplay-tracker-page h2 {
+  color: #333;
+}
+
+.rugplay-tracker-page input[type="text"] {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: calc(100% - 20px);
+}
+
+.rugplay-tracker-page button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.rugplay-tracker-page button:hover {
+  background-color: #0056b3;
+}
+
+.rugplay-tracker-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.rugplay-tracker-page li {
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rugplay-tracker-page li:last-child {
+  border-bottom: none;
+}
+
+.rugplay-tracker-page .remove-btn {
+  background-color: #dc3545;
+  font-size: 0.8em;
+  padding: 4px 8px;
+}
+
+.rugplay-tracker-page .remove-btn:hover {
+  background-color: #c82333;
+}
+
+.rugplay-tracker-page .section {
+  margin-bottom: 20px;
+}

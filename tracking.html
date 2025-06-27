@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RugPlay Tracker Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="rugplay-tracker-page">
+  <h1>RugPlay Tracker</h1>
+
+  <div class="section">
+    <h2>Track New User</h2>
+    <form id="trackUserForm">
+      <input type="text" id="newUserName" placeholder="Enter User ID/Address" required>
+      <button type="submit">Track User</button>
+    </form>
+  </div>
+
+  <div class="section">
+    <h2>Tracked Users</h2>
+    <ul id="trackedUsersList">
+      <!-- Tracked users will be listed here -->
+    </ul>
+  </div>
+
+  <hr>
+
+  <div class="section">
+    <h2>Track New Coin</h2>
+    <form id="trackCoinForm">
+      <input type="text" id="newCoinSymbol" placeholder="Enter Coin Symbol/Address" required>
+      <button type="submit">Track Coin</button>
+    </form>
+  </div>
+
+  <div class="section">
+    <h2>Tracked Coins</h2>
+    <ul id="trackedCoinsList">
+      <!-- Tracked coins will be listed here -->
+    </ul>
+  </div>
+
+  <script src="tracking.js"></script>
+</body>
+</html>
