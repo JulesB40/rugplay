@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Rugplay Tracker Settings</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    input { margin-bottom: 6px; width: 100%; }
+    ul { list-style: none; padding: 0; }
+    li { margin-bottom: 4px; }
+  </style>
+</head>
+<body>
+  <h1>Rugplay Tracker Settings</h1>
+  <h2>API Key</h2>
+  <input id="apiKeyInput" placeholder="Enter API key" />
+  <button id="saveApiKey">Save</button>
+  <p id="apiStatus"></p>
+
+  <h2>Tracked Users</h2>
+  <input id="userInput" placeholder="Add username" />
+  <button id="addUser">Add</button>
+  <ul id="users"></ul>
+
+  <h2>Tracked Coins</h2>
+  <input id="coinInput" placeholder="Add coin symbol" />
+  <button id="addCoin">Add</button>
+  <ul id="coins"></ul>
+
+  <script src="tracker.js"></script>
+</body>
+</html>

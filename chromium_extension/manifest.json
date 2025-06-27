@@ -10,8 +10,21 @@
     "service_worker": "background.js"
   },
   "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://rugplay.com/*", "http://localhost/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
   "host_permissions": [
     "https://rugplay.com/*",
     "http://localhost/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["tracker.html", "tracker.js"],
+      "matches": ["<all_urls>"]
+    }
   ]
 }

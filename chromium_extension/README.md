@@ -9,7 +9,8 @@ It periodically fetches recent trades and highlights any activity involving your
 3. Click **Load unpacked** and select the `chromium_extension` folder.
 
 ## Usage
-- Use the popup to add usernames or coin symbols you want to track.
-- The extension lists recent trades that involve those users or coins.
-
-The background service polls the Rugplay API every minute to refresh trade data.
+- Use the popup to quickly add usernames or coin symbols you want to track.
+- A new **Tracker** link appears in the Rugplay sidebar. It opens a settings page
+  where you can store an API key and manage your tracked users or coins.
+- The extension slightly changes the site background color so you know it's
+  active. Recent trades are fetched every minute in the background.
