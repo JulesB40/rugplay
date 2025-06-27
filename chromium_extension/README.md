@@ -12,8 +12,5 @@ It periodically fetches recent trades and highlights any activity involving your
 - Use the popup to add usernames or coin symbols you want to track.
 - The extension lists recent trades that involve those users or coins.
 
-The extension also injects a small "Tracker" link into Rugplay's sidebar.
-Clicking it opens an overlay page where you can enter your API key and manage
-tracked users and coins.
 
 The background service polls the Rugplay API every minute to refresh trade data.
