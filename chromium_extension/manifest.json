@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Rugplay Tracker",
+  "description": "Track marked users and coins on Rugplay.",
+  "version": "0.2",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://rugplay.com/*", "http://localhost/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://rugplay.com/*",
+    "http://localhost/*"
+  ]
+}
